@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RL Salón de Belleza · Trenzas</title>
+<meta name="description" content="Trenzas africanas, Fulani y bohemias. Elegí tu estilo y pedí tu turno por WhatsApp. Curso de box braids.">
+<style>
+:root{--plum:#3a0f5c;--pink:#f2a6cf;--rose:#c9568f;--blush:#fbeaf3;--ink:#24112f;--w:1080px}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{font:17px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--blush)}
+h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.15;color:var(--plum)}
+a{color:inherit}
+.wrap{max-width:var(--w);margin:auto;padding:0 20px}
+header{position:sticky;top:0;z-index:5;background:var(--plum);color:#fff}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+.logo{font:italic 700 20px Georgia,serif;text-decoration:none}
+nav a{margin-left:16px;text-decoration:none;font-size:15px}
+.hero{background:var(--plum);color:#fff;padding:56px 0 64px}
+.hero h1{color:#fff;font-size:clamp(34px,8vw,60px);max-width:14ch}
+.hero p{max-width:46ch;margin:16px 0 26px;color:#f3d9e8}
+.btn{display:inline-block;background:var(--pink);color:var(--plum);font-weight:700;padding:13px 24px;border-radius:999px;border:0;text-decoration:none;cursor:pointer;font-size:16px}
+.btn:focus-visible,select:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--rose);outline-offset:2px}
+section{padding:56px 0}
+h2{font-size:clamp(28px,6vw,40px);margin-bottom:8px}
+.sub{max-width:56ch;margin-bottom:28px}
+.grid{display:grid;gap:22px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:#fff;border-radius:20px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 2px 0 var(--pink)}
+.ph{display:flex;gap:2px;background:var(--plum)}
+.ph img{width:100%;height:340px;object-fit:cover;object-position:center top;display:block;min-width:0;flex:1}
+.cb{padding:18px 20px 22px;display:flex;flex-direction:column;gap:8px;flex:1}
+.cb h3{font-size:22px}
+.meta{font-size:14px;color:var(--rose);font-weight:600}
+.price{font-weight:700;font-size:18px}
+.cb ul{padding-left:18px;font-size:15px}
+.note{font-size:14px;background:var(--blush);padding:10px 12px;border-radius:10px}
+.cb .btn{margin-top:auto;text-align:center;align-self:stretch}
+.course{background:#fff}
+.hl{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 24px}
+.hl span{background:var(--pink);color:var(--plum);font-weight:600;font-size:14px;padding:6px 14px;border-radius:999px}
+.box{background:var(--blush);border-radius:18px;padding:20px 22px}
+.box h3{font-size:21px;margin-bottom:8px}
+.box li{margin:0 0 6px 18px;font-size:15.5px}
+.learn{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-bottom:22px}
+.learn .box{background:var(--plum);color:#f6e3ee}
+.learn h3{color:var(--pink)}
+.gift{background:var(--pink);color:var(--plum);font-weight:700;border-radius:14px;padding:12px 16px;margin-top:12px}
+.pay{margin-top:22px;border:2px solid var(--plum)}
+.big{font:700 clamp(38px,9vw,56px) Georgia,serif;color:var(--plum);line-height:1}
+form{display:grid;gap:16px;max-width:520px;background:#fff;padding:24px;border-radius:20px}
+label{font-weight:600;font-size:15px;display:grid;gap:6px}
+select,input{font:inherit;padding:12px;border:2px solid var(--pink);border-radius:12px;background:#fff;width:100%}
+#aviso{display:none}
+footer{background:var(--plum);color:#f3d9e8;padding:28px 0;font-size:14px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.wa{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:6;background:#25d366;color:#073b1c;font-weight:700;padding:13px 20px;border-radius:999px;text-decoration:none;box-shadow:0 3px 10px rgba(0,0,0,.25)}
+.hero .btn+.btn{background:transparent;color:#fff;border:2px solid var(--pink);margin-left:8px}
+.steps .box{background:#fff;border:2px solid var(--pink)}
+.steps h3{font-size:20px}
+footer{padding-bottom:84px}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="logo" href="#inicio">RL Salón de Belleza</a><nav><a href="#estilos">Estilos</a><a href="#curso">Curso</a><a href="#reservar">Reservar</a></nav></div></header>
+
+<main id="inicio">
+<div class="hero"><div class="wrap">
+<h1>Trenzas con estilo propio</h1>
+<p>Africanas clásicas, Fulani y bohemias. Elegí tu estilo, tu día y tu horario, y pedí tu turno directo por WhatsApp.</p>
+<a class="btn" href="#reservar">Pedir turno</a><a class="btn" href="https://wa.me/5493534171796?text=Hola!%20Quiero%20consultar%20por%20un%20turno%20en%20RL%20Sal%C3%B3n%20de%20Belleza." target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+</div></div>
+
+<section id="como"><div class="wrap"><h2>¿Cómo reservo?</h2><p class="sub">Así de fácil.</p><div class="grid steps"><div class="box"><h3>1. Elegí tu estilo</h3><p>Mirá los estilos y tocá el que más te guste.</p></div><div class="box"><h3>2. Elegí día y horario</h3><p>Indicá cuándo te queda cómodo venir.</p></div><div class="box"><h3>3. Enviá por WhatsApp</h3><p>Mandanos una foto de tu pelo y te confirmamos el turno.</p></div></div></div></section>
+
+<section id="estilos"><div class="wrap">
+<h2>Estilos y precios</h2>
+<p class="sub">Tocá el estilo que te gusta y pasás directo a pedir tu turno.</p>
+<div class="grid">
+
+<article class="card"><div class="ph"><img src="clasica.jpg" alt="Trenzas africanas clásicas" loading="lazy"></div><div class="cb">
+<h3>Trenzas africanas clásicas 🖤</h3><div class="meta">Box braids · aprox. 4 a 5 hs, según cantidad y largo</div>
+<p>Trenzas pegadas al cuero cabelludo, con divisiones en cuadritos. Un estilo prolijo, cómodo y duradero. ¡Olvidate de peinarte todos los días y lucí siempre arreglada! ✨</p>
+<p>Incluye trenzado completo.</p>
+<ul><li>Con extensiones: <b>$ 115.000</b> (diferentes largos y colores)</li><li>Sin extensiones: precio a consultar, varía según el largo del pelo natural</li></ul>
+<button class="btn" data-v="clasica-con">Elegir este estilo</button></div></article>
+
+<article class="card"><div class="ph"><img src="frontal-simple.jpg" alt="Trenzas Fulani con diseño frontal simple" loading="lazy"><img src="frontal-complejo.jpg" alt="Trenzas Fulani con diseño frontal complejo" loading="lazy"></div><div class="cb">
+<h3>Trenzas africanas con diseño frontal 🖤</h3><div class="meta">Fulani braids · 4 a 6 hs aprox.</div>
+<p>¡Dale un toque único y personalizado a tus trenzas! Combina diseños en la parte delantera de la cabeza con trenzas sueltas en la parte de atrás.</p>
+<ul><li><b>Diseño simple · $ 130.000.</b> Líneas y divisiones sencillas en la parte frontal.</li><li><b>Diseño complejo · desde $ 150.000.</b> Figuras, dibujos y formas personalizadas que requieren mayor detalle y trabajo.</li></ul>
+<div class="note">📸 ¡Importante! Para conocer el precio exacto del diseño complejo, envianos una foto de referencia del modelo que te gustaría realizarte.</div>
+<button class="btn" data-v="fulani-simple">Elegir diseño simple</button>
+<button class="btn" data-v="fulani-complejo">Elegir diseño complejo</button></div></article>
+
+<article class="card"><div class="ph"><img src="boho-mucho.jpg" alt="Bohemias con mucha cantidad de rulo" loading="lazy"></div><div class="cb">
+<h3>Bohemias con mucha cantidad de rulo 💗</h3><div class="meta">4 a 6 hs aprox.</div>
+<p>Trenzas africanas con muchos mechones de rulos sueltos, para un acabado abundante, voluminoso y con mucho movimiento. Cuantos más rulos, más tiempo lleva el trabajo.</p>
+<div class="price">$ 150.000</div>
+<button class="btn" data-v="boho-mucho">Elegir este estilo</button></div></article>
+
+<article class="card"><div class="ph"><img src="boho-poco.jpg" alt="Bohemias con poca cantidad de rulo" loading="lazy"></div><div class="cb">
+<h3>Bohemias con poca cantidad de rulo 💕</h3><div class="meta">4 a 6 hs aprox.</div>
+<p>Trenzas africanas con pocos mechones de rulos sueltos, para un estilo más delicado, sutil y natural.</p>
+<div class="price">$ 130.000</div>
+<button class="btn" data-v="boho-poco">Elegir este estilo</button></div></article>
+
+</div></div></section>
+
+<section id="curso" class="course"><div class="wrap">
+<div class="meta">Inicial · Presencial</div>
+<h2>Hacé tus primeras box braids 🖤</h2>
+<p class="sub">Aprendé trenzas sueltas con extensiones, una inversión que recuperás con 2 servicios. 3 clases de 4 horas.</p>
+<div class="hl"><span>3 clases de 4 h</span><span>3 semanas seguidas</span><span>Individual o hasta 2 alumnos</span><span>Incluye sábados</span></div>
+
+<h3 style="margin-bottom:14px">Qué vas a aprender</h3>
+<div class="learn">
+<div class="box"><h3>1. Raíces y cultura 🌷</h3><p>La historia de las box braids, descubrí los orígenes y la evolución de este estilo trascendental y qué se pone en juego con la apropiación cultural.</p></div>
+<div class="box"><h3>2. Conociendo el terreno 👇</h3><p>Tipos de pelo y texturas; un viaje por la diversidad. Materiales y herramientas, marcas para trabajar cómodo y seguro.</p></div>
+<div class="box"><h3>3. Estar en el detalle 😉</h3><p>Kanekalon, hilo y lana: porqué sí y porqué no, técnica correcta y posición de las manos. Preparación del cliente y la tuya. Cuidado e higiene; lo indispensable para un trenzado.</p></div>
+<div class="box"><h3>4. Creatividad y estilo ☀️</h3><p>Formas y diseños; la imaginación sin límite. Cómo ocultar puntas rectas y flequillos, trucos y técnicas. Descubrí cómo mejorar tu tiempo y eficiencia.</p></div>
+<div class="box"><h3>5. Negocio y profesionalismo 📲</h3><p>Mitos y verdades del trenzado, separando la realidad de la ficción. Enganches y terminaciones sin dolor. Cómo evitar posibles lesiones y te enseñamos a sacar tu propio presupuesto.</p></div>
+</div>
+
+<div class="grid">
+<div class="box"><h3>🎯 Objetivos</h3><ul>
+<li>Dominar la técnica: hacer divisiones prolijas y simétricas, que te permitan trabajar con eficiencia y precisión.</li>
+<li>Lograr enganches ajustados pero sin dolor, para que tus clientes se sientan cómodos.</li>
+<li>Crear puntas lacias y con movimiento.</li>
+<li>Desarrollá habilidades para ganar la confianza para trabajar como trenzadora profesional.</li></ul></div>
+<div class="box"><h3>🎁 Qué incluye</h3><ul>
+<li><b>Materiales de aprendizaje:</b> todo lo que necesitás para aprender y practicar en clase.</li>
+<li><b>Cabeza de práctica:</b> un maniquí para que puedas trabajar desde la primera clase, sin tener que traer a nadie.</li>
+<li><b>Coffee break:</b> un descanso para que puedas recargar energías.</li>
+<li><b>Finanzas básicas:</b> un manual de Excel fácil de entender para manejar tus números.</li>
+<li><b>PDF de respaldo</b> con todo lo visto en clase, para repasar y practicar en casa.</li>
+<li><b>Grupo de WhatsApp</b> exclusivo para conectarte con colegas y hacer consultas.</li>
+<li><b>Oportunidad laboral:</b> prioridad para trabajar en el estudio cuando termines el curso.</li>
+<li><b>Certificado digital</b> de asistencia y finalización.</li>
+<li><b>Asesoramiento</b> personalizado durante 3 meses para acompañarte en tus primeros pasos.</li></ul>
+<div class="gift">🎁 De regalo: un peine de cola de metal y un paquete de gomitas.</div></div>
+</div>
+
+<div class="box pay"><h3>💸 Inversión y medios de pago</h3>
+<div class="big">$290.000 <span style="font:16px system-ui">en efectivo</span></div>
+<p>$390.000 de lista, en 3 cuotas sin interés con cualquier tarjeta.</p>
+<ul style="margin-top:10px"><li><b>Con tarjeta:</b> pagás el total al inscribirte, con un link de pago en 3 cuotas sin interés.</li>
+<li><b>En efectivo:</b> reservás tu lugar con una seña de $80.000 y pagás el resto en efectivo en la primera clase.</li></ul>
+<p style="margin:12px 0 16px">Para anotarte, mandá por WhatsApp: día y horario, nombre y apellido, celular, mail y forma de pago.</p>
+<a class="btn" id="cupo" href="#">Reservar cupo</a></div>
+</div></section>
+
+<section id="reservar"><div class="wrap">
+<h2>Pedí tu turno en un minuto</h2>
+<p class="sub">Completá tus datos y se abre WhatsApp con el mensaje listo para enviar.</p>
+<form id="f">
+<label>Estilo<select id="estilo" required>
+<option value="">Seleccioná un estilo…</option>
+<option value="clasica-con">Africanas clásicas, con extensiones — $ 115.000</option>
+<option value="clasica-sin">Africanas clásicas, sin extensiones — precio a consultar</option>
+<option value="fulani-simple">Africanas con diseño frontal, diseño simple — $ 130.000</option>
+<option value="fulani-complejo">Africanas con diseño frontal, diseño complejo — desde $ 150.000</option>
+<option value="boho-mucho">Bohemias con mucha cantidad de rulo — $ 150.000</option>
+<option value="boho-poco">Bohemias con poca cantidad de rulo — $ 130.000</option>
+</select></label>
+<label>Día<input type="date" id="dia" required></label>
+<label>Horario<input type="time" id="hora" required></label>
+<label>Tu nombre<input type="text" id="nombre" autocomplete="name" required></label>
+<p class="note" id="aviso">📸 Para el diseño complejo, mandanos en el chat de WhatsApp una foto de referencia del modelo que querés.</p>
+<p class="note"><b>Mandanos una foto de tu pelo actual</b> en el chat de WhatsApp, así evaluamos el largo, el volumen y el estado de tu pelo.<br><b>Importante:</b> esto es una solicitud de turno. Queda confirmado cuando te respondamos por WhatsApp.</p>
+<button class="btn" type="submit">Pedir turno por WhatsApp</button>
+</form>
+</div></section>
+<section id="info" class="course"><div class="wrap"><h2>Antes de venir</h2><div class="box"><p>Atención con turno previo. Traé el pelo limpio, seco y desenredado. Mandanos por WhatsApp una foto de tu pelo actual y, si tenés, una de referencia.</p><p style="margin-top:8px">La dirección exacta y los horarios disponibles te los enviamos al confirmar el turno.</p><p style="margin-top:14px"><a class="btn" href="https://wa.me/5493534171796?text=Hola!%20Quiero%20consultar%20por%20un%20turno%20en%20RL%20Sal%C3%B3n%20de%20Belleza." target="_blank" rel="noopener">Escribir por WhatsApp</a></p></div></div></section>
+</main>
+<a class="wa" href="https://wa.me/5493534171796?text=Hola!%20Quiero%20consultar%20por%20un%20turno%20en%20RL%20Sal%C3%B3n%20de%20Belleza." target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">💬 WhatsApp</a>
+
+<footer><div class="wrap">RL Salón de Belleza · Atención con turno previo · © 2026</div></footer>
+
+<script>
+var WA="5493534171796";
+var N={"clasica-con":"Trenzas africanas clásicas, con extensiones","clasica-sin":"Trenzas africanas clásicas, sin extensiones","fulani-simple":"Trenzas africanas con diseño frontal, diseño simple","fulani-complejo":"Trenzas africanas con diseño frontal, diseño complejo","boho-mucho":"Bohemias con mucha cantidad de rulo","boho-poco":"Bohemias con poca cantidad de rulo"};
+var $=function(i){return document.getElementById(i)};
+function aviso(){$("aviso").style.display=$("estilo").value==="fulani-complejo"?"block":"none"}
+$("estilo").addEventListener("change",aviso);
+document.querySelectorAll("[data-v]").forEach(function(b){b.addEventListener("click",function(){$("estilo").value=b.dataset.v;aviso();$("reservar").scrollIntoView()})});
+$("dia").min=new Date().toISOString().slice(0,10);
+$("f").addEventListener("submit",function(e){e.preventDefault();
+var d=$("dia").value.split("-").reverse().join("/");
+var t="Hola! Quiero pedir un turno en RL Salón de Belleza.\nEstilo: "+N[$("estilo").value]+"\nDía: "+d+"\nHorario: "+$("hora").value+"\nNombre: "+$("nombre").value;
+if($("estilo").value==="fulani-complejo")t+="\nTe mando una foto de referencia del diseño.";
+t+="\nTe mando también una foto de mi pelo actual.";
+window.open("https://wa.me/"+WA+"?text="+encodeURIComponent(t),"_blank")});
+$("cupo").addEventListener("click",function(e){e.preventDefault();
+var t="Hola! Quiero reservar mi cupo en el curso Hacé tus primeras box braids.\nDía y horario:\nNombre y apellido:\nCelular:\nMail:\nForma de pago (tarjeta o efectivo):";
+window.open("https://wa.me/"+WA+"?text="+encodeURIComponent(t),"_blank")});
+</script>
+</body>
+</html>
